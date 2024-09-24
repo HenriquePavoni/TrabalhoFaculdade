@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5390D9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 1%;
+    width: 95%;
+    max-width: 1200px;
+    background-color: #5E60CE;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home {
+    display: flex;
+    margin-top: 15%;
+    width: 55%;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #b8a996;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img {
+    width: 40%;
+    height: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#texto-home {
+    margin-top: 2em;
+    text-align: center;
+    align-items: center;
+    font-family: monospace;
+    width: 60%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    color: white;
+}
+
+#receitas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15%;
+    width: 95%;
+    height: 1100px;
+    border-radius: 10px;
+    background-color: hwb(36 59% 9%);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    border: 2px solid black;
+}
+
+#receitas-bolo {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 98%;
+    background-color: #5E60CE;
+    height: 350px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#texto-receita-bolo-ingredientes {
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
+}
+
+#texto-receita-bolo-preparo {
+    font-size: 17px;
+    font-family: monospace;
+    color: white;
+    padding: 1%;
+}
+
+#texto-receita-bolo-preparo ol {
+    margin: 0.4%;
+}
+
+#receitas-bolo .img {
+    width: 50%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#texto-receita-bolo {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: monospace;
+    color: white;
+}
+
+#sobre {
+    background-color: #5E60CE;
+    color: white;
+    font-size: 17px;
+    width: 98%;
+    padding: 20px;
+    margin-top: 5%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-family: monospace;
+    border: 2px solid black;
+}
+#contato {
+    background: blue;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 700px; 
+    font-size: 25px;
+    width: 100%;
+    margin-top: 15%;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background: linear-gradient(to right, blue, purple);
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+#galeria {
+    margin-top: 15%;
+    background-color: hwb(36 59% 9%);
+    color: white;
+    font-size: 17px;
+    width: 98%;
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-family: monospace;
+    border: 2px solid black;
+}
+
+#feedback {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    background-color: hwb(36 59% 9%);
+    color: white;
+    font-size: 17px;
+    width: 98%;
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-family: monospace;
+    border: 2px solid black;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 100%;
+}

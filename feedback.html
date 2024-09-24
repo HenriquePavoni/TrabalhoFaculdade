@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Culinária e Receitas - Feedback</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        #menu {
+            list-style-type: none;
+            display: inline-block;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+        }
+
+        header a:hover {
+            color: hsl(240, 66%, 39%);
+            font-size: 35px;
+        }
+
+        header li {
+            display: inline-block;
+            padding: 15px;
+        }
+
+        .feedback-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .feedback-item {
+            display: flex;
+            align-items: center;
+            background-color: chocolate;
+            text-align: center;
+            background-color: chocolate;
+            color: brown;
+            border-radius: 75px;
+            padding: 15px;
+            width: 500px;
+            margin: auto;
+        }
+
+        .feedback-img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .feedback-text {
+            text-align: left;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        h3 {
+            color: rgb(0, 140, 255);
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header style="background-color: #5E60CE; color: white; border-radius: 5%;">
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="feedback.html">FeedBack</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="feedback">
+        <h2 style="text-align: center; font-size: 70px;">Feedback dos Clientes</h2>
+        <div class="feedback-container">
+            <div class="feedback-item">
+                <img class="feedback-img" src="imagens/perfil.jpg" alt="Maria Silva">
+                <div class="feedback-text">
+                    <h3>Maria Silva</h3>
+                    <p>“O bolo de chocolate é simplesmente divino! Todos amaram!”</p>
+                </div>
+            </div>
+            <div class="feedback-item">
+                <img class="feedback-img" src="imagens/perfil.jpg" alt="João Oliveira">
+                <div class="feedback-text">
+                    <h3>João Oliveira</h3>
+                    <p>“O espaguete estava delicioso! Voltarei com certeza.”</p>
+                </div>
+            </div>
+            <div class="feedback-item">
+                <img class="feedback-img" src="imagens/perfil.jpg" alt="Lucas Pereira">
+                <div class="feedback-text">
+                    <h3>Lucas Pereira</h3>
+                    <p>“O hambúrguer é o melhor da cidade! Recomendo a todos!”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" style="margin-top: 100%;">
+        <p>&copy; 2024 Culinaria e Receitas. Todos os direitos reservados.</p>
+    </div>
+</body>
+
+</html>

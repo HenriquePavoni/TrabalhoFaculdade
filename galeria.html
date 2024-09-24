@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Culinária e Receitas - Galeria</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        #menu {
+            list-style-type: none;
+            display: inline-block;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+        }
+
+        header a:hover {
+            color: hsl(240, 66%, 39%);
+            font-size: 35px;
+        }
+
+        header li {
+            display: inline-block;
+            padding: 15px;
+        }
+
+        .galeria-img {
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+        }
+
+        .galeria-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .galeria-item {
+            text-align: center;
+            background-color: chocolate;
+            color: brown;
+            border-radius: 10px;
+            padding: 25px;
+            width: 250px;
+            margin: auto;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .galeria-img {
+            width: 100%;
+            height: 250px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="background-color: #5E60CE; color: white; border-radius: 5%;">
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="feedback.html">FeedBack</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="galeria">
+        <h2 style="text-align: center; font-size: 70px;">Galeria</h2>
+        <div class="galeria-container">
+            <div class="galeria-item">
+                <h3>Bolo de Chocolate</h3>
+                <img class="galeria-img" src="imagens/bolo.jpg" alt="Bolo de Chocolate">
+            </div>
+            <div class="galeria-item">
+                <h3>Espaguete à Bolonhesa</h3>
+                <img class="galeria-img" src="imagens/spaghetti.jpg" alt="Espaguete à Bolonhesa">
+            </div>
+            <div class="galeria-item">
+                <h3>Hambúrguer Americano</h3>
+                <img class="galeria-img" src="imagens/hamburger.jpg" alt="Hambúrguer Americano">
+            </div>
+            <div class="galeria-item">
+                <h3>Pizza</h3>
+                <img class="galeria-img" src="imagens/pizza.jpg" alt="Imagem em Breve">
+            </div>
+        </div>
+    </div>
+    <div class="footer" style="margin-top: 5%;">
+        <p>&copy; 2024 Culinaria e Receitas. Todos os direitos reservados.</p>
+    </div>
+</body>
+
+</html>
