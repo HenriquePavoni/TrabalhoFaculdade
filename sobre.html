@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Culinária e Receitas - Sobre</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <style>
         #menu {
@@ -33,11 +33,40 @@
             padding: 15px;
         }
 
-        p {
-            font-size: 28px;
+        #sobre {
+            margin-top: 15%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
+
+        .texto {
+            background-color: #b8a996;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px 0;
+            width: 80%;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .texto:hover {
+            padding: 2%;
+            box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.7);
+        }
+
+        #sobre h3 {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
+        #sobre ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
     </style>
 </head>
+
 <body>
     <header style="background-color: #5E60CE; color: white; border-radius: 5%;">
         <nav>
@@ -52,19 +81,40 @@
         </nav>
     </header>
 
-    <div id="sobre" style="margin-top: 15%;">
-        <h2>Sobre Nós</h2>
-        <p>Bem-vindo ao <strong>Culinária e Receitas</strong>!</p>
-        <p>Nós somos apaixonados por comida e acreditamos que cozinhar deve ser uma experiência prazerosa e acessível para todos.</p>
-        <h3>O que oferecemos:</h3>
-        <ul>
-            <li><strong>Receitas Testadas e Aprovadas:</strong></li>
-            <li><strong>Dicas e Truques de Cozinha:</strong></li>
-            <li><strong>Conteúdo Diversificado:</strong></li>
-        </ul>
-    </div>
-        <div class="footer" style="margin-top: 100%;">
-            <p>&copy; 2024 Culinaria e Receitas. Todos os direitos reservados.</p>
+    <div id="sobre">
+        <div class="texto">
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo ao <strong>Culinária e Receitas</strong>! Somos apaixonados por comida e acreditamos que cozinhar deve ser uma experiência prazerosa e acessível para todos.</p>
         </div>
+
+        <div class="texto">
+            <h3>Nossa Missão</h3>
+            <p>Nosso objetivo é inspirar pessoas a se aventurarem na cozinha, compartilhando receitas simples e deliciosas que podem ser feitas em casa, seja por chefs experientes ou iniciantes.</p>
+        </div>
+
+        <div class="texto">
+            <h3>O que oferecemos:</h3>
+            <ul>
+                <li><strong>Receitas Testadas e Aprovadas:</strong> Garantimos que todas as receitas sejam fáceis de seguir e deliciosas.</li>
+                <li><strong>Dicas e Truques de Cozinha:</strong> Aprenda técnicas úteis que tornarão sua experiência culinária mais agradável.</li>
+                <li><strong>Conteúdo Diversificado:</strong> Desde pratos tradicionais a inovações gastronômicas, temos algo para todos os gostos.</li>
+            </ul>
+        </div>
+
+        <div class="texto">
+            <h3>A Nossa Equipe</h3>
+            <p>Somos um grupo de amantes da culinária, chefs amadores e profissionais dedicados a compartilhar o melhor da gastronomia com você.</p>
+        </div>
+
+        <div class="texto">
+            <h3>Junte-se a Nós!</h3>
+            <p>Adoramos ouvir suas experiências e sugestões. Sinta-se à vontade para entrar em contato e compartilhar suas receitas ou feedbacks. Juntos, podemos tornar a culinária ainda mais especial!</p>
+        </div>
+    </div>
+
+    <footer style="margin-top: 2em;">
+        <p>&copy; 2024 Culinária e Receitas. Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>

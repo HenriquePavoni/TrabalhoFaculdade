@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <style>
         #menu {
@@ -35,12 +34,13 @@
         }
 
         .galeria-img {
-            width: 300px;
-            height: 300px;
-            margin: 0 auto;
+            width: 100%;
+            height: 250px;
+            border: 2px solid black;
+            border-radius: 10px;
         }
 
-        .galeria-container {
+        .galeria-externo {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -53,16 +53,20 @@
             border-radius: 10px;
             padding: 25px;
             width: 250px;
-            margin: auto;
+            margin: 10px;
             box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
         }
 
-        .galeria-img {
-            width: 100%;
-            height: 250px;
-            border: 2px solid black;
-            border-radius: 10px;
+        .galeria-item:hover {
+            padding: 2%;
+            box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.7);
         }
+
+        #galeria h2 {
+            text-align: center;
+            font-size: 70px;
+        }
+
     </style>
 </head>
 
@@ -81,8 +85,8 @@
     </header>
 
     <div id="galeria">
-        <h2 style="text-align: center; font-size: 70px;">Galeria</h2>
-        <div class="galeria-container">
+        <h2>Galeria</h2>
+        <div class="galeria-externo">
             <div class="galeria-item">
                 <h3>Bolo de Chocolate</h3>
                 <img class="galeria-img" src="imagens/bolo.jpg" alt="Bolo de Chocolate">
@@ -97,13 +101,14 @@
             </div>
             <div class="galeria-item">
                 <h3>Pizza</h3>
-                <img class="galeria-img" src="imagens/pizza.jpg" alt="Imagem em Breve">
+                <img class="galeria-img" src="imagens/pizza.jpg" alt="Pizza">
             </div>
         </div>
     </div>
-    <div class="footer" style="margin-top: 5%;">
+
+    <footer style="margin-top: 2em;">
         <p>&copy; 2024 Culinaria e Receitas. Todos os direitos reservados.</p>
-    </div>
+    </footer>
 </body>
 
 </html>
